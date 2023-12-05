@@ -35,7 +35,7 @@ int noteDurations[] = {
 void setup() {
   
   int i=0;
-  while(i<2)
+  while(i<2) //Tune is iterated twice for improved bgm
   {
     // iterate over the notes of the melody:
   for (int thisNote = 0; thisNote < 30; thisNote++)
